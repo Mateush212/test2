@@ -1,0 +1,45 @@
+﻿﻿*
+{
+	border-radius: 0.25vw
+}
+body
+{
+	margin: 0;
+}
+main
+{
+	width: 20vw;
+	height: 6.5vw;
+	margin: 50vh auto 0;
+	padding: 3vw;
+	box-shadow: 0 0 5vw darkgrey;
+	transform: translateY(-6.25vw);
+}
+input
+{
+	width: 18.8vw;
+	height: 2.8vw;
+	padding: 0.5vw;
+	border: 0.1vw solid #AAA;
+	outline: none;
+	font-size: 3vw;
+	color: grey;
+}
+input::placeholder
+{
+	color: #CCC;
+}
+#meter
+{
+	width: 20vw;
+	height: 1vw;
+	margin-top: 1.5vw;
+	background-color: #BBB; 
+}
+#meterInside
+{
+	width: 0;
+	height: 1vw;
+	background-color: red;
+	transition: 0.5s;
+}
